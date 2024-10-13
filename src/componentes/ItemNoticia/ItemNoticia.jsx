@@ -6,7 +6,7 @@ import './ItemNoticia.css';
 function ItemNoticia() { 
   return ( 
     <Row className='w-100 d-flex align-items-center justify-content-center'>
-      <Card className="p-4 my-4 tarjeta-noticia" style={{width: '55%', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'}}> {/* Añadimos sombra */}
+      <Card className="p-4 my-4 tarjeta-noticia">
         <Row className="g-0"> {/* Ajusta el espaciado de la fila */}
           
           {/* Imagen de la card */}

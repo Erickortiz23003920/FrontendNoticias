@@ -5,6 +5,8 @@ import { Card, Button, Row, Col, Badge, Container } from 'react-bootstrap';
 import LoginForm from './componentes/LoginForm/LoginForm';
 import NavbarNoticias from './componentes/NavbarNoticias/NavbarNoticias.jsx';
 import ItemNoticia from './componentes/ItemNoticia/ItemNoticia.jsx';
+import ItemEditarNoticia from './componentes/ItemEditarNoticia/ItemEditarNoticia.jsx';
+import ItemCrearNoticia from './componentes/ItemCrearNoticia/ItemCrearNoticia.jsx';
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
       {/* <LoginForm/> */}
       <NavbarNoticias/>
       <ItemNoticia></ItemNoticia>
-      <ItemNoticia></ItemNoticia>
-      <ItemNoticia></ItemNoticia>
+      <ItemEditarNoticia></ItemEditarNoticia>
+      <ItemCrearNoticia></ItemCrearNoticia>
+
     </div>
   );
 }
