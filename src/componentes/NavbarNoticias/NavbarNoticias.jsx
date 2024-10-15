@@ -16,7 +16,6 @@ function NavbarNoticias() {
               <img 
                 src="/logo-noslogan.png"
                 alt="Logo universidad galileo" 
-                className="" 
                 style={{ maxHeight: '70px' }}
               /> 
             </Navbar.Brand> 
