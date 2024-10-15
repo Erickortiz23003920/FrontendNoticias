@@ -12,13 +12,10 @@
 #label-correo{
     font-weight: bold;
     display: block;
-    margin-left: -250px;
-    
 }
 #label-password {
     font-weight: bold;
     display: block;
-    margin-left: -220px;
 
 }
 input{
